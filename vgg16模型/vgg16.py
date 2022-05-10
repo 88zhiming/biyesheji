@@ -1,7 +1,7 @@
 # encoding=gbk
 import os
 import json
-
+#交叉熵损失函数已经包含softmax函数
 import math
 import datetime
 import torch
@@ -12,12 +12,7 @@ from torchvision import transforms, datasets
 from tqdm import tqdm  # 进度条包
 from torch.utils.tensorboard import SummaryWriter
 import torch.optim.lr_scheduler as lr_scheduler
-
-# from models.resnet_model import resnet18, resnet34, resnet50, resnext50_32x4d, resnet101
-# from models.shuffle_model import shufflenet_v2_x1_0
 from models.vggnet_model import vgg
-
-#from data_enhancement import mixup_data, mixup_criterion, cutmix_data, CutMixCollator, CutMixCriterion
 import numpy as np
 import matplotlib.pyplot as plt
 from torchvision.utils import make_grid
@@ -31,22 +26,18 @@ current_time = datetime.datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
 num_classes = 3  # 分的类别
 lr = 0.0001
 gamma = 0.95
-use_mixup = False
-use_mix = False
+
 lrf = 0.01  # 学习率衰减
 epochs = 80 # 训练论述
 batch_size = 32
 
 
-log_path = "/home/amax/YSPACK/vgg16tes/" + current_time  # tensorboard
-save_path = "/home/amax/YSPACK/vgg16tes/weith" + current_time  # 权重存储
-# model_weight_path = "/home/amax/fgq/Graduation project/cnn/pre-weights/resnet18-pre.pth"  # 预训练权重
-image_path ="/home/amax/YSPACK/HECHENGDATA_10%/" # 输入图像文件夹
-# image_path_new = "/home/amax/YSPACK/vgg16tes/"
-save_weitht_txt =  "/home/amax/YSPACK/vgg16tes/seve_log" + current_time  #文本记录训练过程
-# model = resnet18(num_classes=num_classes)  # 输入的模型
+log_path = "/tmp/pycharm_project_773/vgg16模型/models/训练结果/Tensorboard" + current_time  # tensorboard
+save_path = "/tmp/pycharm_project_773/vgg16模型/models/训练结果/权重存储" + current_time  # 权重存储
+image_path ="/home/amax/YSPACK/NEW_DATA_BYONSELF_SPIT_GENGXIN/" # 输入图像文件夹
+save_weitht_txt =  "/tmp/pycharm_project_773/vgg16模型/models/训练结果/文本记录" + current_time  #文本记录训练过程
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("using {} device.".format(device))
@@ -123,18 +114,17 @@ def main():
     #     missing_keys, unexpected_keys = net.load_state_dict(model_dict, strict=False)
     #     print(f"missing_keys:{missing_keys}")
 
-
-    # freeze features weights
-    # 这里遍历net.features下的所有参数
+    # # freeze features weights
+    # # 这里遍历net.features下的所有参数
     # for param in net.features.parameters():
     #     param.requires_grad = False
-
-    # par = []
+    # #
+    # # par = []
     # for name, para in net.named_parameters():
     #     # 除最后的全连接层外，其他权重全部冻结
     #     if "fc" not in name:# and "layer4" not in name:  #
     #         para.requires_grad_(False)
-    #         par.append(name)
+    # #         par.append(name)
     # print("冻结参数", par)
 
     net.to(device)
@@ -165,65 +155,20 @@ def main():
         train_acc = torch.zeros(1).to(device)
         for step, data in enumerate(train_bar):  # 也就是说这里面要循环42次,也就是说一个epoch，要加载完所有图片，把所有图片进行训练。
             images, labels = data
-            # ------mixup---------------
-            if use_mix:
-                inputs = images.to(device)
-                targets = labels.to(device)
 
-                if use_mixup:
-                    inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, alpha, use_cuda=True)
+            optimizer.zero_grad()
+            logits = net(images.to(device))
+            loss = loss_function(logits, labels.to(device))
+            loss.backward()  # loss反向传播
+            optimizer.step()  # 参数更新
 
-                if use_cutmix:
-                    inputs, targets_a, targets_b, lam = cutmix_data(inputs, targets, cutmix_alpha, use_cuda=True)
-
-                #若干张图片拼成一个图片，并显示。nrow显示张数, padding图片间隔，返回tensor数据
-                make_grid(inputs, nrow=4, padding=10)
-                # image_show(out)
-
-                # 映射为Variable
-                inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
-
-                # --------mixup-end----------
-                # zero the parameter gradients ，将历史损失梯度清零，就是当硬件受限，无法使用大的batch训练，梯度会梯度会进行累加，从而产生大的batch训练的效果，这个清零
-                # 帮助你实现多个小batch清一次
-                optimizer.zero_grad()
-                logits = net(inputs)
-
-                if use_mixup:
-                    loss = mixup_criterion(loss_function, logits, targets_a, targets_b, lam)
-
-                if use_cutmix:
-                    loss = mixup_criterion(loss_function, logits, targets_a, targets_b, lam)
-
-                loss.backward()  # loss反向传播
-                optimizer.step()  # 参数更新
-
-                _, predicted = torch.max(logits.data, 1)
-                train_acc += (lam * predicted.eq(targets_a.data).cpu().sum().float()
-                              + (1 - lam) * predicted.eq(targets_b.data).cpu().sum().float())
-
-                # train_acc += torch.eq(train_y, labels.to(device)).sum().item()
+            train_y = torch.max(logits, dim=1)[1]  # 找到最大预测结果，dim表示在第一个维度里面寻找最大值，[1]这里是找索引
+            train_acc += torch.eq(train_y, labels.to(device)).sum().item()
 
                 # print statistics
-                running_loss += loss.item()  # 累加损失
+            running_loss += loss.item()  # 累加损失
 
-                train_bar.desc = "train epoch[{}/{}] loss:{:.3f}".format(epoch,
-                                                                         epochs,
-                                                                         loss)
-            else:
-                optimizer.zero_grad()
-                logits = net(images.to(device))
-                loss = loss_function(logits, labels.to(device))
-                loss.backward()  # loss反向传播
-                optimizer.step()  # 参数更新
-
-                train_y = torch.max(logits, dim=1)[1]  # 找到最大预测结果，dim表示在第一个维度里面寻找最大值，[1]这里是找索引
-                train_acc += torch.eq(train_y, labels.to(device)).sum().item()
-
-                # print statistics
-                running_loss += loss.item()  # 累加损失
-
-                train_bar.desc = "train epoch[{}/{}] loss:{:.3f}".format(epoch,
+            train_bar.desc = "train epoch[{}/{}] loss:{:.3f}".format(epoch,
                                                                          epochs,
                                                                          loss)
         scheduler.step()
@@ -346,7 +291,10 @@ def draw_picture(path):
     ax.set_xlabel("轮数")  # 添加横轴标签
     ax.set_ylabel("准确率")  # 添加纵轴标签
     ax.legend(loc="best")  # 展示图例
-
+    plt.title('Training and validation accuracy')
+    plt.savefig('Training and validation accuracy.jpg')
+    # plt.title('Training and validation loss')
+    # plt.savefig('densenet_download_model.jpg')
     plt.show()
 
 

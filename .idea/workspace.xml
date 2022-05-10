@@ -4,8 +4,126 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3221cd-2983-42b9-8953-f986879564ac" name="Default Changelist" comment="test">
-      <changelist_data name="Hasee" email="zhiming_882022@163.com" />
+    <list default="true" id="f2712c87-67a6-4452-ad06-6647925b1c6e" name="变更" comment="giazh">
+      <change afterPath="$PROJECT_DIR$/load_model/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_model/load_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18/data_enhancement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18/models/resnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18/resnet18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/featureExtra1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/resnet18_xiugei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_使用自己的数据集/data_enhancement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_使用自己的数据集/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_使用自己的数据集/models/resnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_使用自己的数据集/resnet18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/featureExtra1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/resnet18_xiugei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/featureExtra1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/resnet18_xiugei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/112022.05.09-13.54.32/events.out.tfevents.1652075672.admin.cluster.local.1633839.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/tensorboard2022.05.09-13.48.37/events.out.tfevents.1652075318.admin.cluster.local.1578678.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/文本记录2022.05.09-13.54.32/train_acc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/文本记录2022.05.09-13.54.32/train_loss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/文本记录2022.05.09-13.54.32/val_acc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/文本记录2022.05.09-13.54.32/val_loss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/权重存储2022.05.09-13.54.32/model-0.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/权重存储2022.05.09-13.54.32/model-19.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/权重存储2022.05.09-13.54.32/model-3.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/权重存储2022.05.09-13.54.32/model-48.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet18_冻结参数_使用自己的数据集/models/训练结果/权重存储2022.05.09-13.54.32/model-9.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50/data_enhancement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50/models/resnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50/resnet50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/Training and validation accuracy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/class_indices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/data_enhancement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/feature复制修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/resnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果/权重存储2022.04.30-15.37.00/model-27.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果/权重存储2022.04.30-15.37.00/model-51.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果/权重存储2022.04.30-15.37.00/model-59.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果/权重存储2022.04.30-15.37.00/model-66.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果/权重存储2022.04.30-15.37.00/model-68.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/models/训练结果2022.04.30-15.37.00/events.out.tfevents.1651304220.admin.cluster.local.3860722.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resnet50_img/resnet50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络/shufflenet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/feature复制修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/mydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/shufflenet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shufflenet网络特征融合/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/feature复制修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16模型复制/class_indices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16模型复制/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16模型复制/models/vggnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16模型复制/training and validation accuracy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgg16模型复制/vgg16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模型融合/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模型融合/feature_fusion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模型融合/feature_fusion/feature_Extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模型融合/模型融合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/feature复制修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/mydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/feature复制修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/models/My_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/mydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特征融合_使用自己做的数据集/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/models/My_resnet_model_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/models/resnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/models/shufflenet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/models/vggnet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/单张图片预测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/批量预测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/预测/模型评估程序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgg16模型/vgg16.py" beforeDir="false" afterPath="$PROJECT_DIR$/vgg16模型/vgg16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,42 +147,49 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="26DfADi0VlVPzTzwkYyt93MfDBB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/fenge/vgg16模型&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "F:/fenge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\fenge\vgg16模型" />
-      <recent name="F:\fenge\model\densenet\densenet_duochidu" />
+      <recent name="F:\fenge" />
+      <recent name="F:\fenge\shufflenet网络特征融合" />
+      <recent name="F:\fenge\预测\models" />
+      <recent name="F:\fenge\shufflenet网络" />
+      <recent name="F:\fenge\vgg16模型复制\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\fenge\预测" />
+      <recent name="F:\fenge\模型融合\feature_fusion" />
       <recent name="F:\fenge\vgg16模型\models" />
       <recent name="F:\fenge\model\densenet\densenet_duochidu" />
       <recent name="F:\fenge\model\densenet\densenet_img" />
-      <recent name="F:\fenge\model\densenet\densenet" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.resnet18_xiugei">
+    <configuration name="模型评估程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,12 +197,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/load_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_model/12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测/模型评估程序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="densenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="模型评估程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,12 +219,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model/densenet/densenet1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/densenet/densenet1/densenet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测/模型评估程序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="单张图片预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +241,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/load_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_model/load_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测/单张图片预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature复制修改" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shufflenet网络特征融合" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shufflenet网络特征融合/feature复制修改.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +299,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vgg16原型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="resnet18_xiugei" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +307,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vgg16模型" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vgg16模型/vgg16原型.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models/resnet18_xiugei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shufflenet网络特征融合" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shufflenet网络特征融合/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,17 +367,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vgg16原型" />
-        <item itemvalue="Python.12" />
-        <item itemvalue="Python.densenet" />
-        <item itemvalue="Python.load_model" />
+        <item itemvalue="Python.resnet18_xiugei" />
+        <item itemvalue="Python.模型评估程序" />
+        <item itemvalue="Python.train (2)" />
+        <item itemvalue="Python.feature复制修改" />
+        <item itemvalue="Python.vgg16" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a3221cd-2983-42b9-8953-f986879564ac" name="Default Changelist" comment="" />
+      <changelist id="f2712c87-67a6-4452-ad06-6647925b1c6e" name="变更" comment="giazh" />
       <created>1646962932057</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -220,6 +390,12 @@
       <workItem from="1650781030204" duration="41154000" />
       <workItem from="1650882543359" duration="6190000" />
       <workItem from="1650895708399" duration="43631000" />
+      <workItem from="1651059904158" duration="30054000" />
+      <workItem from="1651205129119" duration="58687000" />
+      <workItem from="1651473485848" duration="12308000" />
+      <workItem from="1651550492683" duration="81384000" />
+      <workItem from="1651892834516" duration="18400000" />
+      <workItem from="1652074973079" duration="27521000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1651040389151</created>
@@ -260,6 +436,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="1111111" />
     <MESSAGE value="修改" />
@@ -267,23 +444,55 @@
     <MESSAGE value="test1" />
     <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resnet18_冻结参数/old_featureExtra/featureExtra1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="gray" />
+        <watch expression="img2" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fenge$121.coverage" NAME="121 Coverage Results" MODIFIED="1650457665616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fenge$densenet.coverage" NAME="densenet 覆盖结果" MODIFIED="1650957952785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet1" />
+    <SUITE FILE_PATH="coverage/fenge$train__2_.coverage" NAME="train (2) 覆盖结果" MODIFIED="1652110677298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shufflenet网络特征融合" />
+    <SUITE FILE_PATH="coverage/fenge$resnet50__1_.coverage" NAME="resnet50 (1) 覆盖结果" MODIFIED="1651304219256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet50_img" />
+    <SUITE FILE_PATH="coverage/fenge$data_enhancement.coverage" NAME="data_enhancement 覆盖结果" MODIFIED="1651066947572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vgg16做迁移学习" />
     <SUITE FILE_PATH="coverage/fenge$11.coverage" NAME="11 Coverage Results" MODIFIED="1650440112962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fenge$densnet_duochidu_se.coverage" NAME="densnet_duochidu_se 覆盖结果" MODIFIED="1650901257283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet_duochidu" />
-    <SUITE FILE_PATH="coverage/fenge$densenet__1_.coverage" NAME="densenet (1) Coverage Results" MODIFIED="1650516105882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet" />
     <SUITE FILE_PATH="coverage/fenge$densenet_img.coverage" NAME="densenet_img 覆盖结果" MODIFIED="1650949168581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet_img" />
-    <SUITE FILE_PATH="coverage/fenge$feature.coverage" NAME="feature Coverage Results" MODIFIED="1650518982929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/传统方法" />
-    <SUITE FILE_PATH="coverage/fenge$.coverage" NAME="轻量化模型 Coverage Results" MODIFIED="1650546329506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/轻量化模型" />
+    <SUITE FILE_PATH="coverage/fenge$feature.coverage" NAME="feature复制修改 覆盖结果" MODIFIED="1652108357457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shufflenet网络特征融合" />
+    <SUITE FILE_PATH="coverage/fenge$resnet18__1_.coverage" NAME="resnet18 (1) 覆盖结果" MODIFIED="1651215529245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet18_冻结参数" />
+    <SUITE FILE_PATH="coverage/fenge$resnet50_img.coverage" NAME="resnet50_img 覆盖结果" MODIFIED="1651300764201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet50迁移学习/models" />
+    <SUITE FILE_PATH="coverage/fenge$.coverage" NAME="模型评估程序 覆盖结果" MODIFIED="1652149905433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/预测" />
     <SUITE FILE_PATH="coverage/fenge$tokenize.coverage" NAME="tokenize Coverage Results" MODIFIED="1650737520788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/remote_sources/273171524/519885841" />
     <SUITE FILE_PATH="coverage/fenge$resnet_yuanxing.coverage" NAME="resnet_yuanxing Coverage Results" MODIFIED="1650690543616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/resnet/restnet_yuanxing" />
     <SUITE FILE_PATH="coverage/fenge$load_model.coverage" NAME="load_model 覆盖结果" MODIFIED="1650956746965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/load_model" />
-    <SUITE FILE_PATH="coverage/fenge$vgg16.coverage" NAME="vgg16 覆盖结果" MODIFIED="1651046002607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vgg16模型" />
+    <SUITE FILE_PATH="coverage/fenge$vgg16.coverage" NAME="vgg16 覆盖结果" MODIFIED="1652104928199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vgg16模型" />
     <SUITE FILE_PATH="coverage/fenge$densenet__2_.coverage" NAME="densenet (2) Coverage Results" MODIFIED="1650737513273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet1" />
     <SUITE FILE_PATH="coverage/fenge$bgg.coverage" NAME="bgg Coverage Results" MODIFIED="1650439543738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fenge$util.coverage" NAME="util 覆盖结果" MODIFIED="1651495176183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/fenge$vgg_hunxiaojuzhen__1_.coverage" NAME="vgg_hunxiaojuzhen (1) 覆盖结果" MODIFIED="1651905933619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/预测" />
+    <SUITE FILE_PATH="coverage/fenge$vgg_hunxiaojuzhen.coverage" NAME="vgg_hunxiaojuzhen 覆盖结果" MODIFIED="1651903980597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vgg16模型" />
+    <SUITE FILE_PATH="coverage/fenge$12.coverage" NAME="12 覆盖结果" MODIFIED="1650958325520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/load_model" />
+    <SUITE FILE_PATH="coverage/fenge$121.coverage" NAME="121 Coverage Results" MODIFIED="1650457665616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fenge$densenet.coverage" NAME="densenet 覆盖结果" MODIFIED="1650957952785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet1" />
+    <SUITE FILE_PATH="coverage/fenge$resnet50.coverage" NAME="resnet50 覆盖结果" MODIFIED="1651300751908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet50" />
+    <SUITE FILE_PATH="coverage/fenge$train__1_.coverage" NAME="train (1) 覆盖结果" MODIFIED="1652092823754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shufflenet网络" />
+    <SUITE FILE_PATH="coverage/fenge$shufflenet.coverage" NAME="shufflenet 覆盖结果" MODIFIED="1652092426239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shufflenet网络" />
+    <SUITE FILE_PATH="coverage/fenge$densnet_duochidu_se.coverage" NAME="densnet_duochidu_se 覆盖结果" MODIFIED="1650901257283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet_duochidu" />
+    <SUITE FILE_PATH="coverage/fenge$resnet18_xiugei.coverage" NAME="resnet18_xiugei 覆盖结果" MODIFIED="1652151317218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet18_不冻结参数_使用自己的数据集/models" />
+    <SUITE FILE_PATH="coverage/fenge$resnet18.coverage" NAME="resnet18 覆盖结果" MODIFIED="1652075730192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnet18_使用自己的数据集" />
+    <SUITE FILE_PATH="coverage/fenge$densenet__1_.coverage" NAME="densenet (1) Coverage Results" MODIFIED="1650516105882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet" />
     <SUITE FILE_PATH="coverage/fenge$alexnet.coverage" NAME="alexnet 覆盖结果" MODIFIED="1650802395386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/alexnet" />
     <SUITE FILE_PATH="coverage/fenge$densenet1.coverage" NAME="densenet1 Coverage Results" MODIFIED="1650516181915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/densenet/densenet" />
-    <SUITE FILE_PATH="coverage/fenge$12.coverage" NAME="12 覆盖结果" MODIFIED="1650958325520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/load_model" />
+    <SUITE FILE_PATH="coverage/fenge$train.coverage" NAME="train 覆盖结果" MODIFIED="1652085793251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/特征融合_使用自己做的数据集" />
+    <SUITE FILE_PATH="coverage/fenge$vgg16__1_.coverage" NAME="vgg16 (1) 覆盖结果" MODIFIED="1652085601201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vgg16模型复制" />
   </component>
 </project>

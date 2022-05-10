@@ -10,13 +10,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="amax@192.168.1.183:22 password (1)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/pycharm_project_773" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
     </serverData>
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
