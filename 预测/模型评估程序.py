@@ -1,6 +1,6 @@
 import os
 import json
-
+import datetime
 import torch
 from torchvision import transforms, datasets
 import numpy as np
@@ -17,7 +17,7 @@ use_cbam = True
 
 from sklearn import metrics
 from models.vggnet_model import vgg
-from models.resnet_model import resnet18
+# from models.resnet_model import resnet18
 # from  models.My_resnet_model_mix import  resnet18
 activate_silu = False
 num_classes = 3  # 分的类别
@@ -28,10 +28,10 @@ num_classes = 3  # 分的类别
 # net = vgg(model_name=model_name, num_classes=3, init_weights=False)
 # create_model = model = vgg(model_name=model_name, num_classes=3, init_weights=False)
 # create_model = model =shufflenet_v2_x1_0(num_classes=num_classes)
-# create_model =resnet18(num_classes=num_classes, use_cbam= use_cbam, activate_silu = activate_silu)
-model_name = "vgg16"
-create_model = vgg(model_name=model_name, num_classes=3, init_weights=False)
-model_weight_path ="/tmp/pycharm_project_773/vgg16模型/models/训练结果/权重存储2022.05.09-22.02.10/model-54.pth"
+create_model =resnet18(num_classes=num_classes, use_cbam= use_cbam, activate_silu = activate_silu)
+# model_name = "vgg16"
+# create_model = vgg(model_name=model_name, num_classes=3, init_weights=False)
+model_weight_path ="/tmp/pycharm_project_773/resnet18_冻结全连接层参数_使用自己的数据集/models/训练结果/权重存储2022.05.10-15.43.14/model-46.pth"
 image_path ="/home/amax/YSPACK/TEST_DATE_HUNXIAO/"
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 class ConfusionMatrix(object):
@@ -144,12 +144,15 @@ if __name__ == '__main__': #下面是pytorch
     confusion = ConfusionMatrix(num_classes=3, labels=labels) #混淆矩阵
     net.eval()
     with torch.no_grad():
+        start_t = datetime.datetime.now()
         for val_data in tqdm(validate_loader):#遍历数据集。
             val_images, val_labels = val_data #将数据分为图片和标签。
             outputs = net(val_images.to(device))
             outputs = torch.softmax(outputs, dim=1)  #表示的最大的预测最大的概率
             outputs = torch.argmax(outputs, dim=1)   #返回最大概率所对应的下标
             confusion.update(outputs.to("cpu").numpy(), val_labels.to("cpu").numpy())
+        end_t = datetime.datetime.now()
+        print("运行一次时间", (end_t - start_t).seconds)
 
     confusion.plot()
     confusion.summary()
